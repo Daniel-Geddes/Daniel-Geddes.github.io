@@ -739,17 +739,8 @@ input, select, textarea {
 		align-items: center;
 		justify-content: center;
 		display: flex;
-		max-width: 100%;
+		width: 100%;
 	}
-
-	@media screen and (max-width: 480px) {
-
-		html, body, ul {
-			min-width: 320px;
-		}
-
-	}
-
 		ul li {
 			padding-left: 0.5em;
 			display: flex;
@@ -944,11 +935,6 @@ input, select, textarea {
 				ul.icons li a:active {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
-#center{
-	align-items: center;
-	justify-content: center;
-	display: flex;
-}
 
 /* Table */
 
