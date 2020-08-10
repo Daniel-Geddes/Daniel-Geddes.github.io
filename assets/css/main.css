@@ -739,6 +739,7 @@ input, select, textarea {
 		align-items: center;
 		justify-content: center;
 		display: flex;
+		max-width: 100%;
 	}
 
 		ul li {
