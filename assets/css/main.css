@@ -72,6 +72,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+#skillsPage, ul, li {
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+	padding-left: 1em;
+	text-transform: none !important;
+}
+
 /* Basic */
 
 	@-ms-viewport {
