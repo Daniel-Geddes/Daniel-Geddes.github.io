@@ -80,6 +80,14 @@ input, select, textarea {
 	text-transform: none !important;
 }
 
+#live-buttons, button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1675,3 +1683,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
